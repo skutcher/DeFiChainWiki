@@ -415,7 +415,11 @@ getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 
 Pay the remaining dUSD loan back with dUSD tokens from the wallet using the command `paybackloan {"vaultId":"hex","from":"address","amounts":"str"}`
 
-_Hint_: It's save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
+:::tip
+It's save to define an amount which is higher than the collateral 
+:::
+
+[transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
 
 ```bash title="CLI Command"
 paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
